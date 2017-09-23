@@ -77,7 +77,7 @@ int main()
         scanf("%s",cmd);
         if(strcmp(cmd,"n")==0)
         {
-            printf("Thank you!");
+            printf("Thank you!\n");
             return 0;
         }
     }
