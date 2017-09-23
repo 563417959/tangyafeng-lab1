@@ -73,8 +73,13 @@ int main()
         {
             printf("Error Command! Please enter 0~9.\n");
         }
-        printf("Please press any Key to contiue...\n");
-        while(!kbhit());
+        printf("Do you want continue(y/n)?");
+        scanf("%s",cmd);
+        if(strcmp(cmd,"n")==0)
+        {
+            printf("Thank you!");
+            return 0;
+        }
     }
     return 0;
 }
