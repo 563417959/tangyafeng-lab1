@@ -1,0 +1,5 @@
+git clone https://github.com/563417959/tangyafeng-lab1.git
+
+gcc menu.c linklist.c -o menu
+
+./menu
