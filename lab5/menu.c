@@ -107,7 +107,7 @@ int main()
    /* cmd line begins */
     while(1)
     {
-    	char cmd[CMD_MAX_LEN];
+        char cmd[CMD_MAX_LEN];
         printf("Input a cmd number > ");
         scanf("%s", cmd);
         printf("cmd  > %s\n",cmd);
