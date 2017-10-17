@@ -45,7 +45,7 @@ typedef struct DataNode
 
 int SearchCondition(tLinkTableNode * pLinkTableNode, void * args)
 {
-	char * cmd = (char *)args;
+    char * cmd = (char *)args;
     tDataNode * pNode = (tDataNode *)pLinkTableNode;
     if(strcmp(pNode->cmd, cmd) == 0)
     {
